@@ -1,0 +1,70 @@
+2023-12-18T03:22:23+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sfsi_Unistall_plugin" not found or invalid function name in C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\njomz\Local Sites\pershendet\app\public\wp-admin\includes\plugin.php(1269): do_action('uninstall_ultim...')
+#3 C:\Users\njomz\Local Sites\pershendet\app\public\wp-admin\includes\plugin.php(960): uninstall_plugin('ultimate-social...')
+#4 C:\Users\njomz\Local Sites\pershendet\app\public\wp-admin\includes\ajax-actions.php(4748): delete_plugins(Array)
+#5 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(324): wp_ajax_delete_plugin('')
+#6 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\njomz\Local Sites\pershendet\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#9 {main}
+  thrown in C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php on line 324
+
+2023-12-18T04:48:05+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\woocommerce\module.php:1544
+Stack trace:
+#0 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\woocommerce\module.php(1506): ElementorPro\Modules\Woocommerce\Module->adjust_setting_for_product_renderer(Object(ElementorPro\Modules\LoopBuilder\Widgets\Loop_Grid))
+#1 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\woocommerce\module.php(1496): ElementorPro\Modules\Woocommerce\Module->parse_loop_query_args(Object(ElementorPro\Modules\LoopBuilder\Widgets\Loop_Grid), Array)
+#2 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\woocommerce\module.php(1447): ElementorPro\Modules\Woocommerce\Module->loop_query(Array, Object(ElementorPro\Modules\LoopBuilder\Widgets\Loop_Grid))
+#3 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(324): ElementorPro\Modules\Woocommerce\Module->ElementorPro\Modules\Woocommerce\{closure}(Array, Object(ElementorPro\Modules\LoopBuilder\Widgets\Loop_Grid))
+#4 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#5 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\query-control\classes\elementor-post-query.php(154): apply_filters('elementor/query...', Array, Object(ElementorPro\Modules\LoopBuilder\Widgets\Loop_Grid))
+#6 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\query-control\classes\elementor-post-query.php(49): ElementorPro\Modules\QueryControl\Classes\Elementor_Post_Query->get_query_args()
+#7 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\query-control\module.php(959): ElementorPro\Modules\QueryControl\Classes\Elementor_Post_Query->get_query()
+#8 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\posts\widgets\posts.php(73): ElementorPro\Modules\QueryControl\Module->get_query(Object(ElementorPro\Modules\LoopBuilder\Widgets\Loop_Grid), 'product_query', Array, Array)
+#9 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\loop-builder\widgets\base.php(57): ElementorPro\Modules\Posts\Widgets\Posts->query_posts()
+#10 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\posts\skins\skin-base.php(856): ElementorPro\Modules\LoopBuilder\Widgets\Base->query_posts()
+#11 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\loop-builder\skins\skin-loop-base.php(90): ElementorPro\Modules\Posts\Skins\Skin_Base->render()
+#12 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\woocommerce\skins\skin-loop-product.php(36): ElementorPro\Modules\LoopBuilder\Skins\Skin_Loop_Base->render()
+#13 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\base\skin-base.php(79): ElementorPro\Modules\WooCommerce\Skins\Skin_Loop_Product->render()
+#14 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(612): Elementor\Skin_Base->render_by_mode()
+#15 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\core\base\document.php(328): Elementor\Widget_Base->render_content()
+#16 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(459): Elementor\Core\Base\Document->render_element(Array)
+#17 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#18 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#19 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#20 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#21 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#22 C:\Users\njomz\Local Sites\pershendet\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#23 {main}
+  thrown in C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\woocommerce\module.php on line 1544
+
+2023-12-18T04:48:32+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\woocommerce\module.php:1544
+Stack trace:
+#0 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\woocommerce\module.php(1506): ElementorPro\Modules\Woocommerce\Module->adjust_setting_for_product_renderer(Object(ElementorPro\Modules\LoopBuilder\Widgets\Loop_Grid))
+#1 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\woocommerce\module.php(1496): ElementorPro\Modules\Woocommerce\Module->parse_loop_query_args(Object(ElementorPro\Modules\LoopBuilder\Widgets\Loop_Grid), Array)
+#2 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\woocommerce\module.php(1447): ElementorPro\Modules\Woocommerce\Module->loop_query(Array, Object(ElementorPro\Modules\LoopBuilder\Widgets\Loop_Grid))
+#3 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(324): ElementorPro\Modules\Woocommerce\Module->ElementorPro\Modules\Woocommerce\{closure}(Array, Object(ElementorPro\Modules\LoopBuilder\Widgets\Loop_Grid))
+#4 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#5 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\query-control\classes\elementor-post-query.php(154): apply_filters('elementor/query...', Array, Object(ElementorPro\Modules\LoopBuilder\Widgets\Loop_Grid))
+#6 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\query-control\classes\elementor-post-query.php(49): ElementorPro\Modules\QueryControl\Classes\Elementor_Post_Query->get_query_args()
+#7 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\query-control\module.php(959): ElementorPro\Modules\QueryControl\Classes\Elementor_Post_Query->get_query()
+#8 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\posts\widgets\posts.php(73): ElementorPro\Modules\QueryControl\Module->get_query(Object(ElementorPro\Modules\LoopBuilder\Widgets\Loop_Grid), 'product_query', Array, Array)
+#9 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\loop-builder\widgets\base.php(57): ElementorPro\Modules\Posts\Widgets\Posts->query_posts()
+#10 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\posts\skins\skin-base.php(856): ElementorPro\Modules\LoopBuilder\Widgets\Base->query_posts()
+#11 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\loop-builder\skins\skin-loop-base.php(90): ElementorPro\Modules\Posts\Skins\Skin_Base->render()
+#12 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\woocommerce\skins\skin-loop-product.php(36): ElementorPro\Modules\LoopBuilder\Skins\Skin_Loop_Base->render()
+#13 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\base\skin-base.php(79): ElementorPro\Modules\WooCommerce\Skins\Skin_Loop_Product->render()
+#14 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(612): Elementor\Skin_Base->render_by_mode()
+#15 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\core\base\document.php(328): Elementor\Widget_Base->render_content()
+#16 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(459): Elementor\Core\Base\Document->render_element(Array)
+#17 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#18 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#19 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#20 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#21 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#22 C:\Users\njomz\Local Sites\pershendet\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#23 {main}
+  thrown in C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor-pro\modules\woocommerce\module.php on line 1544
+

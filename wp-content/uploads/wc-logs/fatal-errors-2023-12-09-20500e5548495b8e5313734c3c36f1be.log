@@ -1,0 +1,72 @@
+2023-12-09T20:57:29+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given in C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\inc\vendors\elementor\elements\skins\fresh-el\product-flash-sales.php:277
+Stack trace:
+#0 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\elementor_templates\product-flash-sales.php(22): Greenmart_Elementor_Product_Flash_Sales->render_content_main()
+#1 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\inc\vendors\elementor\abstract\base.php(56): include('C:\\Users\\njomz\\...')
+#2 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\inc\vendors\elementor\abstract\base.php(66): Greenmart_Elementor_Widget_Base->get_view_template('product-flash-s...', '', Array)
+#3 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Greenmart_Elementor_Widget_Base->render()
+#4 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#5 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\core\base\document.php(328): Elementor\Widget_Base->render_content()
+#6 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(459): Elementor\Core\Base\Document->render_element(Array)
+#7 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#8 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#9 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#10 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\njomz\Local Sites\pershendet\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#13 {main}
+  thrown in C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\inc\vendors\elementor\elements\skins\fresh-el\product-flash-sales.php on line 277
+
+2023-12-09T20:57:45+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given in C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\inc\vendors\elementor\elements\skins\fresh-el\product-flash-sales.php:277
+Stack trace:
+#0 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\elementor_templates\product-flash-sales.php(22): Greenmart_Elementor_Product_Flash_Sales->render_content_main()
+#1 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\inc\vendors\elementor\abstract\base.php(56): include('C:\\Users\\njomz\\...')
+#2 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\inc\vendors\elementor\abstract\base.php(66): Greenmart_Elementor_Widget_Base->get_view_template('product-flash-s...', '', Array)
+#3 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Greenmart_Elementor_Widget_Base->render()
+#4 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#5 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\core\base\document.php(328): Elementor\Widget_Base->render_content()
+#6 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(459): Elementor\Core\Base\Document->render_element(Array)
+#7 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#8 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#9 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#10 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\njomz\Local Sites\pershendet\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#13 {main}
+  thrown in C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\inc\vendors\elementor\elements\skins\fresh-el\product-flash-sales.php on line 277
+
+2023-12-09T23:19:31+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given in C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\inc\vendors\elementor\elements\skins\fresh-el\product-flash-sales.php:277
+Stack trace:
+#0 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\elementor_templates\product-flash-sales.php(22): Greenmart_Elementor_Product_Flash_Sales->render_content_main()
+#1 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\inc\vendors\elementor\abstract\base.php(56): include('C:\\Users\\njomz\\...')
+#2 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\inc\vendors\elementor\abstract\base.php(66): Greenmart_Elementor_Widget_Base->get_view_template('product-flash-s...', '', Array)
+#3 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Greenmart_Elementor_Widget_Base->render()
+#4 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#5 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\core\base\document.php(328): Elementor\Widget_Base->render_content()
+#6 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(459): Elementor\Core\Base\Document->render_element(Array)
+#7 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#8 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#9 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#10 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\njomz\Local Sites\pershendet\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#13 {main}
+  thrown in C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\inc\vendors\elementor\elements\skins\fresh-el\product-flash-sales.php on line 277
+
+2023-12-09T23:19:39+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given in C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\inc\vendors\elementor\elements\skins\fresh-el\product-flash-sales.php:277
+Stack trace:
+#0 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\elementor_templates\product-flash-sales.php(22): Greenmart_Elementor_Product_Flash_Sales->render_content_main()
+#1 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\inc\vendors\elementor\abstract\base.php(56): include('C:\\Users\\njomz\\...')
+#2 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\inc\vendors\elementor\abstract\base.php(66): Greenmart_Elementor_Widget_Base->get_view_template('product-flash-s...', '', Array)
+#3 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2297): Greenmart_Elementor_Widget_Base->render()
+#4 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(614): Elementor\Controls_Stack->render_by_mode()
+#5 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\core\base\document.php(328): Elementor\Widget_Base->render_content()
+#6 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(459): Elementor\Core\Base\Document->render_element(Array)
+#7 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#8 C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#9 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#10 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 C:\Users\njomz\Local Sites\pershendet\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\njomz\Local Sites\pershendet\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#13 {main}
+  thrown in C:\Users\njomz\Local Sites\pershendet\app\public\wp-content\themes\greenmart\inc\vendors\elementor\elements\skins\fresh-el\product-flash-sales.php on line 277
+
